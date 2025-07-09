@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/canadian-cancer-society-donor-tracker/static/css/main.4191d313.css",
+    "main.js": "/canadian-cancer-society-donor-tracker/static/js/main.afcb2448.js",
+    "index.html": "/canadian-cancer-society-donor-tracker/index.html",
+    "main.4191d313.css.map": "/canadian-cancer-society-donor-tracker/static/css/main.4191d313.css.map",
+    "main.afcb2448.js.map": "/canadian-cancer-society-donor-tracker/static/js/main.afcb2448.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4191d313.css",
+    "static/js/main.afcb2448.js"
+  ]
+}
