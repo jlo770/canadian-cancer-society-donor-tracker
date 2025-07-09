@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
@@ -208,7 +208,6 @@ function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <AuthProvider>
-        <Router>
           <Routes>
             {/* Public routes */}
             <Route path="/login" element={<Login />} />
@@ -316,7 +315,6 @@ function App() {
             {/* Catch all - redirect to dashboard */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
-        </Router>
       </AuthProvider>
     </ThemeProvider>
   );
