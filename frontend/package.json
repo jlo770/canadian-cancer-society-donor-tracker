@@ -2,7 +2,7 @@
   "name": "canadian-cancer-society-donor-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jlo770.github.io/sales-account-tracker",
+  "homepage": "https://jlo770.github.io/canadian-cancer-society-donor-tracker",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
